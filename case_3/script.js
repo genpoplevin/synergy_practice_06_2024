@@ -11,7 +11,7 @@ new Swiper('.image-slider', {
         // Фракция
         type: 'fraction',
         renderFraction: function (currentClass, totalClass) {
-            return 'Картинка <span class="' 
+            return 'Изображение <span class="' 
                    + currentClass + '"></span>' 
                    + ' из ' + '<span class="' 
                    + totalClass + '"></span>'
