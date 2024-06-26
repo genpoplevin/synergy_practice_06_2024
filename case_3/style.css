@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #333;
+}
+
+.image-slider {
+    padding: 30px 0 70px 0;
+}
+
+.image-slider__image {
+    text-align: center;
+}
+
+.image-slider__image img {
+    width: 800px;
+    height: 450px;
+}
+
+/* Фракция */
+.swiper-pagination-fraction {
+    font-size: 20px;
+    color: #fff;
+    user-select: none;
+}

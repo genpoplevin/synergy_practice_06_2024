@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider">
+        <!-- Slider main container -->
+        <div class="image-slider swiper slider">
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="image1.jpg" alt="Картинка1">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="image2.jpg" alt="Картинка2">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image-slider__image">
+                        <img src="image3.jpg" alt="Картинка3">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
